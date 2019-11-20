@@ -45,7 +45,7 @@ nnoremap <C-l> :noh<return><esc>
 nnoremap <C-p> :FZF<return>
 
 
-" MVP:
+" TODO:
 "   autocommenting
 "   git blame / conflict resolution (vim-fugitive?)
 "   vim-surround
@@ -56,3 +56,6 @@ nnoremap <C-p> :FZF<return>
 "     TODO: run from terminal, include dotfiles
 "   Snippets
 "   Matchit
+"   Vim-Rooter: https://github.com/airblade/vim-rooter
+"   Auto-Install vim-plug: https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
+"   vim-rails: https://github.com/tpope/vim-rails
