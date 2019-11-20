@@ -9,6 +9,8 @@ call plug#begin('~/.vim/plugged')
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/seoul256.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 

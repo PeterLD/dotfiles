@@ -1,6 +1,4 @@
 **/.DS_Store
 
-.vim/plugged
-.vim/.netrwhist
-.vim/.swp
+.vimrc.swp
 
