@@ -45,6 +45,7 @@ nnoremap B ^
 nnoremap E $
 nnoremap <C-l> :noh<return><esc>
 nnoremap <C-p> :FZF<return>
+nnoremap <C-b> :Buffers<return>
 
 
 " TODO:
