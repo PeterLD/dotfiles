@@ -1,10 +1,12 @@
-" Plugins
+" Auto-install vim-plug
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+
+" Plugins
 call plug#begin('~/.vim/plugged')
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
@@ -49,16 +51,13 @@ nnoremap <C-b> :Buffers<return>
 
 
 " TODO:
+"   Vim-Rooter: https://github.com/airblade/vim-rooter
+"   project search (ag / the_silver_searcher?)
+"   FZF: include dotfiles
 "   autocommenting
 "   git blame / conflict resolution (vim-fugitive?)
-"   vim-surround
-"   project search (ag / the_silver_searcher?)
 "   go to definition, ideally in split (ctags?)
 "   syntax highlighting
-"   fuzzy file search (fzf)
-"     TODO: run from terminal, include dotfiles
 "   Snippets
 "   Matchit
-"   Vim-Rooter: https://github.com/airblade/vim-rooter
-"   Auto-Install vim-plug: https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
 "   vim-rails: https://github.com/tpope/vim-rails
