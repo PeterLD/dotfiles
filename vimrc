@@ -14,6 +14,7 @@ Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'airblade/vim-rooter'
 call plug#end()
 
 
@@ -53,10 +54,8 @@ nnoremap <C-f> :Ag
 
 
 " TODO:
-"   Vim-Rooter: https://github.com/airblade/vim-rooter
 "   project search (ag / the_silver_searcher?)
 "   FZF: include dotfiles
-"   autocommenting
 "   git blame / conflict resolution (vim-fugitive?)
 "   go to definition, ideally in split (ctags?)
 "   syntax highlighting
