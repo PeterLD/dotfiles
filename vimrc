@@ -14,6 +14,7 @@ Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-rooter'
 call plug#end()
 
