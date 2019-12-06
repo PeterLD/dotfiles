@@ -30,14 +30,15 @@ endtry
 
 
 " Settings
+syntax on
 set nocompatible
+set mouse=a
 
 set autoindent
 set shiftwidth=2
 set softtabstop=2
 set expandtab
 
-syntax on
 set number
 set hlsearch
 set incsearch
