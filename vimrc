@@ -9,13 +9,15 @@ endif
 " Plugins
 call plug#begin('~/.vim/plugged')
 Plug '/usr/local/opt/fzf'
+Plug 'airblade/vim-rooter'
 Plug 'junegunn/fzf.vim'
-Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/goyo.vim'
-Plug 'tpope/vim-surround'
+Plug 'junegunn/seoul256.vim'
+Plug 'thaerkh/vim-workspace'
+Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-rooter'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 
@@ -32,7 +34,6 @@ endtry
 " Settings
 syntax on
 set nocompatible
-set mouse=a
 
 set autoindent
 set shiftwidth=2
