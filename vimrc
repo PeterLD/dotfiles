@@ -44,6 +44,7 @@ set number
 set hlsearch
 set incsearch
 
+let g:netrw_liststyle = 3 " Default to tree list-style
 
 " Keybindings
 nnoremap j gj
