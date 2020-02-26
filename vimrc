@@ -54,7 +54,7 @@ nnoremap E $
 nnoremap <C-l> :noh<return><esc>
 nnoremap <C-p> :FZF<return>
 nnoremap <C-b> :Buffers<return>
-nnoremap <C-f> :Ag<return>
+nnoremap <C-f> :Ag<space>
 nnoremap <leader>t :Tags<return>
 nnoremap <leader>b :BTags<return>
 
