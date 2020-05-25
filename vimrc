@@ -10,9 +10,9 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug '/usr/local/opt/fzf'
 Plug 'airblade/vim-rooter'
+Plug 'drewtempelmeyer/palenight.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
-Plug 'junegunn/seoul256.vim'
 Plug 'thaerkh/vim-workspace'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-commentary'
@@ -23,9 +23,8 @@ call plug#end()
 
 " Theme
 try
-  colo seoul256
-  colo seoul256-light
   set background=dark
+  colorscheme palenight
 catch
   " Avoid error on first start
 endtry
