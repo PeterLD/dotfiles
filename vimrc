@@ -10,6 +10,7 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug '/usr/local/opt/fzf'
 Plug 'airblade/vim-rooter'
+Plug 'christoomey/vim-rfactory'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
